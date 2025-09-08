@@ -1,3 +1,11 @@
+/* Problem: A Rank Problem
+Link: https://open.kattis.com/problems/rankproblem
+Summary: Maintain rankings of teams based on match outcomes.
+If a lower-ranked team beats a higher-ranked one, move it just above the loser.
+Otherwise, keep rankings unchanged.
+Process each match in order and output the final ranking.*/
+
+
 import java.util.Scanner;
 public class rankproblem {
 public static void main(String[] args) {
