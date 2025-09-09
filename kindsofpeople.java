@@ -1,3 +1,10 @@
+/* Problem: 10 Kinds of People
+Link: https://open.kattis.com/problems/10kindsofpeople
+Summary: Given a grid of 0s and 1s check to see if a person who can only travel on 0s can reach 
+the end from the start point and vice versa for a person who can only travel on 1s, the start points and end points are given.
+Movement is allowed up, down, left, or right. I used BFS to check for connectivity, and printed "binary", "decimal", or "neither" for each query.
+Binary is printed if a person who walks on only 0s can reach the end point from the start point. Decimal is printed if a person who can only walk on 1s can reach
+the end point from the start point. Neither is printed if neither type of person can reach the end point from the start point*/
 import java.util.Scanner;
 public class kindsofpeople{
 	public static void main(String[] args) {
@@ -104,3 +111,4 @@ public class kindsofpeople{
 
 	    return false;
 	}}
+
