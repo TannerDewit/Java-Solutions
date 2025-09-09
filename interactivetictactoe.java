@@ -1,3 +1,12 @@
+/* Problem: Interactive Tic-Tac-Toe
+Link: https://open.kattis.com/problems/interactivetictactoe
+Summary: Implement a bot that plays Tic-Tac-Toe interactively against an opponent. 
+The program reads the current board state each turn and chooses a move based on a 
+strategy: first attempt to win if possible, then block the opponent's immediate win, then attempt to set up to different possible three in a rows simultaneously,
+or lastly pick the center, a corner, or a side if no other moves are available. 
+The bot must handle starting first or second, as well as entering a game mid-progress. 
+It outputs the updated board after each move.*/
+
 import java.util.Scanner;
 import java.util.ArrayList;
 import java.util.Arrays;
